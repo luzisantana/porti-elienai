@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@font-face {
+    font-family: UUS UN NASXI_1;
+    src: url(/fonts/UUS\ UN\ NASXI_1.ttf);
+    font-family: Retrolight;
+    src: url(/fonts/Retrolight.ttf);
+}
+
+* p {
+    font-weight: 300;
+}
+
+* h1,
+h2,
+h3 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100vw;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2200px;
+}
+
+.pagina1 {
+    padding-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/bgbody.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pagina2,
+.pagina3,
+.pagina3,
+.pagina4,
+.pagina5 {
+    background: url(/img/bggray.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.name {
+    color: #B921FA;
+}
+
+.subTitle {
+    font-weight: bolder;
+    padding: 5px 10px;
+    background-color: #B921FA;
+    font-size: 0.8em;
+    width: max-content;
+}
+
+
+.btnMore {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 550;
+    background-color: #B921FA;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 20px
+}
+
+.btnMore:hover {
+    background-color: #6e1495;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    transform: none;
+}
+
+
+.btnMore a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.homePage {
+    border-radius: 5px;
+    box-shadow: 5px 4px 26px -3px black;
+    margin: auto;
+    margin-bottom: 150px;
+    background-color: white;
+    height: 85%;
+    width: 85%;
+    display: flex;
+}
+
+aside {
+    background-image: url(/img/fotoElienai.jpeg);
+    background-size: cover;
+    background-position: top;
+
+    width: 50%;
+    height: 100%;
+}
+
+section {
+
+    text-align: start;
+    width: 50%;
+    height: 100%;
+}
+
+.name {
+    font-weight: lighter;
+    font-family: Retrolight;
+}
+
+h1 {
+
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1px;
+}
+
+section p {
+    padding-top: 15px;
+}
+
+.textoHome {
+    padding: 50px;
+}
+
+.textoHome h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 2em;
+    padding: 0;
+}
+
+aside nav {
+    position: fixed;
+    margin-left: 410px;
+    margin-top: 100px;
+    padding-top: 20px;
+    gap: 15px;
+    flex-direction: column;
+    display: flex;
+    height: 180px;
+    padding-bottom: 20px;
+    width: 33px;
+    background-color: #B921FA;
+    border-radius: 60px;
+}
+
+
+aside nav li {
+    list-style: none;
+}
+
+aside img {
+    width: 20px;
+}
+
+.svgImg:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(100%) contrast(100%);
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 5px 4px 26px -3px black;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    background-color: white;
+    height: 85%;
+    width: 85%;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    border: black dotted 2px;
+}
+
+main h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+}
+
+
+main p {
+    text-align: start;
+    width: 80%;
+}
+
+nav {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+}
+
+.navBarLateral {
+    height: 100%;
+    width: 20%;
+    background-color: #B921FA;
+}
+
+.imgNavLateral {
+    background-image: url(/img/fotoElienai.jpeg);
+    height: 40%;
+    background-position: top;
+    background-size: cover;
+}
+
+.aboutMe nav a:focus {
+    color: white;
+}
+
+.aboutMe nav a:hover {
+    color: white;
+}
+
+.aboutMe nav a {
+    color: black;
+    text-decoration: none;
+    transform: none;
+}
+
+.aboutMe nav {
+    padding-top: 43px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.artes {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 80%;
+    height: 90%;
+    margin: 20px;
+    overflow-y: scroll;
+}
+
+
+.artes img {
+    filter: grayscale(100%);
+    width: 30%;
+}
+
+.artes img:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: transform 60s linear;
+}
+
+
+.computerSvg,
+.telephoneSvg {
+    width:5%;
+}
+
+.contato {
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 250px;
+}
+
+.container-comp , .container-tel {
+    padding-left: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contato p {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.adobe-icons {
+    margin-top: 20px;
+    width: 30%;
+    border: 2px solid #B921FA;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    background-color:#B921FA;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+}
